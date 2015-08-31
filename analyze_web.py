@@ -62,7 +62,7 @@ def query_vt(sites):
     while num < len(sites):
         if count < 4:
             vt_key = {"resource": sites[num],
-                      "apikey": "7668d5f491cc5d768bc49e89e6ae2bd610cf901dd034b9203b42342840d19c3b"}
+                      "apikey": ""} #insert your non premium virustotal api key here
             vt_response = requests.post(vt_url, data=vt_key)
             vt_result = vt_response.json()
             count += 1

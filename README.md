@@ -16,9 +16,17 @@ chrome - 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Ge
 The field for url needs to be defined with a schema with either http:// or https://
 
 USAGE:
-Example - ./analyze_web.py ie http://company.com
-Example - ./analyze_web.py ff http://company.com
-Example - ./analyze_web.py chrome http://company.com
+
+#Please remove the brackets [.] and replace with . when submitting the url as a parameter
+
+#Please remember to insert "http://" or "https://" if you are running analyze_web.py in the shell.
+
+Example - ./analyze_web.py ie http://company[.]com
+
+Example - ./analyze_web.py ff http://company[.]com
+
+Example - ./analyze_web.py chrome http://company[.]com
+
 
 If you prefer to use the python interpreter, you could import the module as well
 
@@ -26,6 +34,7 @@ Making use of the two functions get_url() and query_vt() as shown below
 
 1) get_url(<ua>, <url>)
 
+# the parameter "suspected malicious url" does not need to include "http://" or "https://" for this function
 2) query_vt([<suspected malicious url>])
 
 

@@ -17,9 +17,9 @@ The field for url needs to be defined with a schema with either http:// or https
 
 USAGE:
 
-#Please remove the brackets [.] and replace with . when submitting the url as a parameter
+Please remove the brackets [.] and replace with . when submitting the url as a parameter
 
-#Please remember to insert "http://" or "https://" if you are running analyze_web.py in the shell.
+Please remember to insert "http://" or "https://" if you are running analyze_web.py in the shell.
 
 Example - ./analyze_web.py ie http://company[.]com
 
@@ -34,8 +34,9 @@ Making use of the two functions get_url() and query_vt() as shown below
 
 1) get_url(<ua>, <url>)
 
-# the parameter "suspected malicious url" does not need to include "http://" or "https://" for this function
 2) query_vt([<suspected malicious url>])
+
+The parameter "suspected malicious url" does not need to include "http://" or "https://" for the query_vt() function
 
 
 

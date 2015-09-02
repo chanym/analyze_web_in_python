@@ -32,9 +32,9 @@ If you prefer to use the python interpreter, you could import the module as well
 
 Making use of the two functions get_url() and query_vt() as shown below
 
-1) get_url(<ua>, <url>)
+1) get_url(\<ua\>, \<url\>)
 
-2) query_vt([<suspected malicious url>])
+2) query_vt([\<suspected malicious url\>])
 
 The parameter "suspected malicious url" does not need to include "http://" or "https://" for the query_vt() function
 

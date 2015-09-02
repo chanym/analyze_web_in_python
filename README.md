@@ -5,7 +5,7 @@ The website retrieval is done using python requests module
 
 It practically gets all the url contained within the website ([url]) and submit them to virustotal to get available report
 
-Usage - ./analyze_web.rb [user-agent] [url]
+Usage - ./analyze_web.rb \<user-agent\> \<url\>
 
 USER-AGENT:
 ie - 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.2; SV1; .NET CLR 3.3.69573; WOW64; en-US)'
